@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <indu>
+    <developer>
+
+# THANKS
+
+ 
+
+# TECHNOLOGY COLOPHON
+
+    HTML5 , CSS , BOOTSTRAP4 , jQuery, Modernizr, Normalize.css
