@@ -25,6 +25,8 @@
 #navlink li:last-child ::after{
     content: '';
 }
+body {overflow-x: hidden;}
+
 body{
     font-family: 'Lato, sans-serif';
 }
@@ -39,7 +41,7 @@ body{
 /*@media screen and (max-width: 767px) {
     .nav { padding-top: 60px; }
 }*/
-@media screen and (min-width:768px) and (max-width: 991px) {
+/*@media screen and (min-width:768px) and (max-width: 991px) {
     #title { padding-top: 110px; }
 }
 @media screen and (min-width: 992px) {
@@ -196,35 +198,6 @@ img{
       color: white;
       text-decoration: underline;
 }
-footer{
-    background-color:black;
-    float: left;  
-    height: 100px;;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    font-size: 13px;
-}
-footer p{
-    margin: 0;
-    color: white;
-}
-.copyright-links a{ 
-    border-bottom: 1px dotted white;
-}
-.social-links{
-    float:right;
-}
-.social-links li{
-    display: inline;
-    color:white;
-    font-size: 30px;
-}
-footer nav{
-    display: inline;
-}
-
 .align {
 padding:0px;
 }
@@ -258,4 +231,10 @@ padding:0px;
 	margin-inline-end: 0px;
 	padding: 2px 45px 0px 0px;
     font-size: 14px;
+}
+.social-links li{
+    display: inline;
+}
+footer{
+    background-color: black;
 }
